@@ -80,7 +80,14 @@ def test_print(capture_stdout):                                     # This is a 
 # git push -u origin main   # indicate -u origin main whhen done the first time or when you want to push to s specific generated branch
 ######### after wards
 # make changes
-# git add .     # gitignore knows what to leave out now
+# git add .     
+# git reset -- pytest_env/* 
+# OR use:    git ls-files --modified | xargs git add    # for only modified files
+
+
+
+
+
 # commit and then oush 
 
 
