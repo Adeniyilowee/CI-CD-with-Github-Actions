@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/slapping/__init__.py
+src/slapping/py.typed
+src/slapping/slap_that_like_button.py
+src/slapping.egg-info/PKG-INFO
+src/slapping.egg-info/SOURCES.txt
+src/slapping.egg-info/dependency_links.txt
+src/slapping.egg-info/not-zip-safe
+src/slapping.egg-info/requires.txt
+src/slapping.egg-info/top_level.txt
+tests/test_slapping.py

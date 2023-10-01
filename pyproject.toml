@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# the above are the compulsory part for installing any package
+
+# config file allowed by pytest
+[tool.pytest.ini_options]
+addopts = "--cov=slapping"
+testpaths = [
+    "tests",
+]
+
+
+# config file allowed by mypy
+[tool.mypy]
+mypy_path = "src"
+check_untyped_defs = true         # mypy does nothing special here, goes through the main code src and check if its written
+disallow_any_generics = true      # correctly without typo, hence only requires src folder / files
+ignore_missing_imports = true
+no_implicit_optional = true
+show_error_codes = true
+strict_equality = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+no_implicit_reexport = true

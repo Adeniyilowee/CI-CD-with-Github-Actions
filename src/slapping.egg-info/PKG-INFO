@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: slapping
+Version: 0.0.0
+Summary: slap that like button
+Author: Adeniyi
+License: MIT
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: requests>=2
+Provides-Extra: testing
+Requires-Dist: pytest>=6.0; extra == "testing"
+Requires-Dist: pytest-cov>=2.0; extra == "testing"
+Requires-Dist: mypy>=0.910; extra == "testing"
+Requires-Dist: flake8>=3.9; extra == "testing"
+Requires-Dist: tox>=3.24; extra == "testing"
