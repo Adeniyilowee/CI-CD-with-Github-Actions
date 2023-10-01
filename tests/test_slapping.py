@@ -79,16 +79,9 @@ def test_print(capture_stdout):                                     # This is a 
 # git commit -m "First testing project commit" # copy from http when git repo is first created
 # git push -u origin main   # indicate -u origin main whhen done the first time or when you want to push to s specific generated branch
 ######### after wards
-# make changes
-# git add .     
-# git reset -- pytest_env/* 
-# OR use:    git ls-files --modified | xargs git add    # for only modified files
-
-
-
-
-
-# commit and then oush 
+# make changes and commit
+# git ls-files --modified | xargs git add    # for only modified files
+# git commit and then git push 
 
 
 
