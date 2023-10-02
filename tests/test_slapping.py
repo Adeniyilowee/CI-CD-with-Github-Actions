@@ -77,6 +77,7 @@ def test_print(capture_stdout):                                     # This is a 
 # git add --all -- ':!pytest_env/*'     #  add all files except a folder with everything inside. hence /*
 # git status
 # git commit -m "First testing project commit" # copy from http when git repo is first created
+# git remote add origin https://github.com/Adeniyilowee/testing.git   # connect to the repository
 # git push -u origin main   # indicate -u origin main whhen done the first time or when you want to push to s specific generated branch
 ######### after wards
 # make changes and commit
