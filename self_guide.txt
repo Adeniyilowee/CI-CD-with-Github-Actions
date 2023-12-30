@@ -1,0 +1,17 @@
+
+
+
+
+
+# after you put all the needed file (see Needed_file_for_package_install) in the folder 
+pip install -e .
+
+
+# Fer all other config file for mypy, flake8 and pytest has been added (essentially all file in Pytest original data)
+git init
+
+git add files....
+
+git commit -m "jbdvfvbirh"
+
+git push

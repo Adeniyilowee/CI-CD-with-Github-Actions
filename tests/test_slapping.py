@@ -23,9 +23,7 @@ def test_single_slaps():
 def test_multi_slaps(test_input, expected):                         # this is making use of the parameterized 
     assert slap_many(LikeState.empty, test_input) is expected       # variable (test_input and expected) set above by pytest
                                                                     # it makes it possible to run multiple test without canceling even with errors
-
-
-
+        
 @pytest.mark.skip(reason="regexes not supported yet")               # this is to skip a function you have not developed yet
 def test_regex_slaps():                                             # hence, its good to use github tox so that it's updated
     assert slap_many(LikeState.empty, '[ld]*ddl') is LikeState.liked
