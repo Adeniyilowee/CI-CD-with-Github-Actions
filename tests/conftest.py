@@ -1,7 +1,6 @@
 import pytest
 import sys
 
-
 @pytest.fixture
 def capture_stdout(monkeypatch):    # here fixture capture_stdout is also dependent on another in built fixture, called monkeypatch
     buffer = {"stdout": "", "write_calls": 0}    # Monkeypatch is crazy, see documentaries or watch video sgain Lol

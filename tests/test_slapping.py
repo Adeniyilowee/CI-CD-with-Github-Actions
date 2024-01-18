@@ -1,8 +1,6 @@
 import pytest
 from slapping.slap_that_like_button import LikeState, slap_many
 
-
-
 def test_empty_slap():
     assert slap_many(LikeState.empty, '') is LikeState.empty
 
@@ -51,8 +49,6 @@ def test_print(capture_stdout):                                     # This is a 
     assert capture_stdout["stdout"] == "hello\n"
 
 
-
-
 # Needed to install package
 # 1. pyproject.toml : its a config file for pytest and mypy
 #                   :
@@ -69,7 +65,6 @@ def test_print(capture_stdout):                                     # This is a 
 # pytest
 # flake8
 # mypy src
-
 
 # Git process
 # git init
