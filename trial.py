@@ -7,8 +7,6 @@ def trial():
     t = 10
     return t
 
-
-
 if __name__ == '__main__':
     t = trial()
     print(t)
