@@ -1,6 +1,7 @@
 import pytest
 from slapping.slap_that_like_button import LikeState, slap_many
 
+
 def test_empty_slap():
     assert slap_many(LikeState.empty, '') is LikeState.empty
 
@@ -33,7 +34,7 @@ def test_divide_by_zero():
     assert 1 / 0 == 1
 
 
-def test_invalid_slap():                                            #  this values will fail if a values error is not raised
+def test_invalid_slap():                                            # This values will fail if a values error is not raised
     with pytest.raises(ValueError):
         slap_many(LikeState.empty, 'x')
 
@@ -62,8 +63,8 @@ def test_print(capture_stdout):                                     # This is a 
 #             :
 
 # What to Run
-# pytest
-# flake8
+# pytest src
+# flake8 src
 # mypy src
 
 # Git process
